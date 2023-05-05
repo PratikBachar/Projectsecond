@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .container{
+            position: absolute;
+            left: 10vw;
+            top: 14vh;
+            background-color: rgba(255, 255, 255, 0.292);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.129);
+        }
+
+        h1 {
+
+            text-shadow: 2px 3px 6px black;
+        }
+
+        .login {
+            border-radius: 25px;
+            color: white;
+            background-color: deeppink;
+            padding-left: 25px;
+            padding-right: 25px;
+            position: absolute;
+            left: 82px;
+            bottom: 210px;
+            bottom: 20px;
+            border: none;
+            box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.349);
+        }
+    </style>
+    <title>my first form</title>
+</head>
+
+<body style="background-image: url('/m.jpg'); background-repeat: no-repeat; background-size: cover;">
+    <div class="container">
+        <h1 width="80%" style="color:rgb(139, 47, 143);">Login</h1><br>
+        <i class="fa fa-facebook fb" style="padding-right: 20px;"></i>
+        <i class="fa fa-twitter"></i><br>
+        <label for="fname" style="color:blue">Email</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname" style="color:blueviolet;">Password</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <form id="password-reset-form">
+            <button type="submit" style="background: none; border: none; color: rgb(181, 108, 13);">Forgot your password?</button>
+        </form>
+        <input class="login" type="submit" value="login">
+        </form>
+    </div>
+
+</body>
+
+</html>
